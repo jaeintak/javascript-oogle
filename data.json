@@ -1,0 +1,35 @@
+{
+    "autocomplete" : {
+        "s": [
+            "study",
+            "speacial",
+            "scope",
+            "son",
+            "s20"
+        ],
+        "st": [
+            "study",
+            "steam",
+            "stco",
+            "state",
+            "stain"
+        ],
+        "stu": [
+            "study",
+            "stuff",
+            "stuck",
+            "studio",
+            "studio3"
+        ],
+        "stud": [
+            "study",
+            "studio",
+            "studio3"
+        ],
+        "study": [
+            "study",
+            "study room",
+            "study hard"
+        ]
+    }
+}

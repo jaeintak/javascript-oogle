@@ -1,0 +1,14 @@
+{
+  "name": "oogle",
+  "version": "1.0.0",
+  "description": "Fast campus의 Byte Degree Javascript 강의 수강생을 대상으로 한 과제입니다.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "박예준",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
