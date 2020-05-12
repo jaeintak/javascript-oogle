@@ -26,6 +26,10 @@ Oogle 검색 서비스의 프론트엔드 개발자가 되어 사이트에 검�
 - api 요청은 fetch api를 사용해보세요!
   참고: https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Fetch%EC%9D%98_%EC%82%AC%EC%9A%A9%EB%B2%95
 
+## 과제 제출 방식
+
+[과제 제출 가이드](./submission_guide.md)를 참고해 주세요.
+
 ## 프로젝트 참고하기
 - client/index.js 에서 코드를 구현하세요!
 - api로 전달받은 결과값들은 li 태그로 각각 감싸서 class name 'autocomplete-results' ul 태그 하단에 넣어주시면 됩니다.
