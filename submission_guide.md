@@ -3,6 +3,7 @@
 아래와 같은 방식으로 과제를 제출하여 리뷰를 받으실 수 있습니다.
 
 1. 자신의 컴퓨터에 과제 repository를 bare 옵션으로 clone 합니다.
+(초록색 Clone or download 버튼을 클릭하신 후 나타나는 링크를 그대로 복사하셔서 사용하시면 됩니다)
 
 ![](./guide-images/clone.png)
 
