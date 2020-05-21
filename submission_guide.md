@@ -8,7 +8,7 @@
 ![](./guide-images/clone.png)
 
 ```
-$ git clone --bare https://github.com/${패스트캠퍼스계정}/${과제-레포}.git
+$ git clone --bare https://github.com/Fastcampus-Programming/react-bytedegree-project-1.git
 ```
 
 2. 자신의 github에 과제를 업로드할 repository를 새롭게 생성합니다. 이때, 공개여부를 Private으로 설정합니다.
