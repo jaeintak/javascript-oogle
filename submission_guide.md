@@ -12,6 +12,7 @@ $ git clone --bare https://github.com/Fastcampus-Programming/react-bytedegree-pr
 ```
 
 2. 자신의 github에 과제를 업로드할 repository를 새롭게 생성합니다. 이때, 공개여부를 Private으로 설정합니다.
+
 (Repository name을 예시와 동일하게 bytedegree-work-1 으로 생성하시는 경우 앞으로 아래 {과제-레포} 부분에는 bytedegree-work-1을 입력하시면 됩니다. 다른 이름으로 생성하시는 경우에는 {과제-레포} 부분에 본인이 생성한 Repository name을 입력해주세요)  
 
 ![](./guide-images/create-repo.png)
