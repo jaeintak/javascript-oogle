@@ -20,7 +20,7 @@ $ git clone --bare https://github.com/Fastcampus-Programming/react-bytedegree-pr
 ![](./guide-images/setting-repo.png)
 
 ```
-$ cd $react-bytedegree-project-1.git
+$ cd react-bytedegree-project-1.git
 $ git push --mirror https://github.com/${수강생본인계정}/${본인과제-레포}.git
 ```
 
