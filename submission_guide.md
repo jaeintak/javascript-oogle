@@ -28,7 +28,7 @@ $ git push --mirror https://github.com/${수강생본인계정}/${본인과제-�
 
 ```
 $ cd ..
-$ rm -rf react-bytedegree-project-1.git
+$ rm -rf react-bytedegree-project-1
 $ git clone https://github.com/수강생본인계정/본인과제-레포.git
 ```
 
