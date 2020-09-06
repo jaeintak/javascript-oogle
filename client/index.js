@@ -1,7 +1,7 @@
 function render(data){
 	const resultsElement = document.querySelector('#results');
 	resultsElement.innerHTML = `<li>${data}</li>`;
-	console.log(data);
+	
 }
 
 async function getRecommendation(event){
