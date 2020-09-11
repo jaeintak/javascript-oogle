@@ -1,17 +1,19 @@
 function render(data){
-	const resultsElement = document.querySelector('#results');
-	resultsElement.innerHTML = `<li>${data}</li>`;
+	let str ='';
+	data.forEach(function(d){
+		str += '<li id="result">'+d+'</li>';
+	})
+	document.querySelector('#results').innerHTML = str;
 	
 }
 
-async function getRecommendation(event){
+async function getRecommendation(){
 	const keywordElement = document.querySelector('#search-field');
 	const keyword = keywordElement.value;
 
 	try{
 		const res = await axios.get(`http://localhost:3000/autocomplete?keyword=${keyword}`);
 		render(res.data);
-		return;
 	}catch(error){
 		console.log("getRecommendation error", error);
 		return null;
@@ -23,9 +25,12 @@ function bindSearchEvent(){
 	search.addEventListener('input', getRecommendation);
 }
 
-function main(){
-//search event
-bindSearchEvent();
+function selectKeyword(){
+	console.log('hello');
+}
 
+function main(){
+	bindSearchEvent();
+	//클릭하면 인풋 값이 키워드로 변경
 }
 document.addEventListener('DOMContentLoaded', main);
